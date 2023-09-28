@@ -1,0 +1,255 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-weight: 3000;
+}
+
+/*!--------------------reset-----------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: 16px; /* Tamaño de fuente base */
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Reducir el tamaño de fuente en pantallas más pequeñas */
+    }
+}
+header .barraflex img {
+    width: 120px; /* Cambia el ancho de la imagen según sea necesario */
+    height: 120px; /* Cambia la altura de la imagen según sea necesario */
+}
+
+
+
+
+
+/*?--------------------header-----------------*/
+.barraflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+
+
+header nav ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align-last: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+header nav ul li{
+    display: inline-flex;
+    margin: 10px;
+    justify-content: left;
+    align-items: start;
+}
+
+
+header{
+    height: auto;
+    background-image: url(../img/navquesos.jpg);
+    background-size: cover;
+    background-position: center 99%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.navegador {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!--------------------main-----------------*/
+main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/mainquesos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.quesos {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/mainquesos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.fontina{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tybo{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cuartirolo{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.saborizado{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.romanito{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sardo{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mapago {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quesoscontacto{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/mainquesos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.fabrica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.tambo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+main div section h2 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+main .quesos section {
+    width: 100%; /* Ocupar todo el ancho disponible */
+    max-width: 250px; /* Establecer un ancho máximo para evitar que se vuelvan demasiado anchas */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*?--------------------footer-----------------*/
+footer{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/navquesos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+footer div{
+    height: 30vh;
+    background-image: url(../img/navquesos.jpg);
+    background-size: cover;
+    background-position: center 99%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer h2{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer div img{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.mapa {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+footer div img {
+    width: 20px; /* Cambiar el tamaño de las imágenes según sea necesario */
+    height: 20px; /* Cambiar el tamaño de las imágenes según sea necesario */
+}
