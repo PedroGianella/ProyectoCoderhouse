@@ -253,3 +253,9 @@ footer div img {
     width: 20px; /* Cambiar el tamaño de las imágenes según sea necesario */
     height: 20px; /* Cambiar el tamaño de las imágenes según sea necesario */
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(100%);
+}
+
